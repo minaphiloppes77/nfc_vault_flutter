@@ -1,0 +1,15 @@
+name: nfc_vault
+description: NFC Vault - قارئ بطاقات NFC مع خزنة بالبصمة
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.5.0
+  nfc_manager: ^3.5.0
+  local_auth: ^2.2.0
+  url_launcher: ^6.3.0
+flutter:
+  uses-material-design: true
